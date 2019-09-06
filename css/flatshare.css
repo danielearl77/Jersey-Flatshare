@@ -1,0 +1,209 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 200px;
+}
+
+body > .container {
+  padding: 0 15px 0;
+}
+
+textarea {
+    height: 100px!important;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 150px;
+  background-color: black;    
+}
+
+.noscriptBack {
+    background-color: #FFFFFF;
+}
+
+.minHi {
+    min-height: 120px;
+    width: 190px;
+    text-align: justify;
+}
+
+.jumboSmall {
+    padding-top: 20px;
+}
+
+.jumboSmall a {
+    margin-top: 5px;
+}
+
+.jumbotron {
+    background-image: url(../images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;    
+}
+
+.textShadow {
+    text-shadow: 2px 1px black;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-top: 20px;
+}
+
+.msg {
+    margin-top: 10px;
+    padding: 10px!important;
+}
+
+.propImg {
+    width: 90px;
+    height: 90px;
+    cursor: pointer;
+}
+
+.propDes {
+    text-align: justify;
+}
+
+.customColor {
+    background-color: #BABFBB!important;
+}
+
+.customColor a:hover {
+    color: #000000!important;
+}
+
+.tab {
+    text-indent: 20px;
+}
+
+.tabB {
+    text-indent: 40px;
+}
+
+.extraTopMargin {
+    margin-top: 30px;
+}
+
+.ad {
+    padding-top: 0px!important;
+}
+
+#flatshares, #flatrent, #moving, #about, #contact {
+    padding-top: 60px;
+}
+
+#contact {
+    height: 500px;
+}
+
+#lightbox {
+	position: fixed;
+	width: 60%;
+	height: 60%;
+	z-index: 100;
+	top: 0;
+    right: 0;
+    bottom: 0;
+	left: 0;
+    margin: auto;
+/*	background: rgba(0,0,0,0.75);*/
+	text-align: center;
+	display: none;
+}
+
+#lightbox img {
+	max-width: 80%;
+/*	margin-top: 30px;*/
+    border: solid black 2px;
+
+}
+
+#closeLightbox {
+    margin: 0 auto;
+/*    text-align: center;*/
+    width: 20%;
+    background-color: rgba(0,0,0,1);
+    color: white;
+}
+
+#closeLightbox:hover {
+    cursor: pointer;
+}
+
+#cookieWarning {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    background-color: rgba(0,0,0,0.8);
+    z-index: 100;
+}
+
+#cookieWarning button {
+    margin-left: 20px;
+}
+
+#waitingForUpload {
+/*    padding: 40px !important;*/
+}
+
+#iOSFix {
+    visibility: hidden;
+}
+
+
+@media screen and (max-width:425px) {
+    #lightbox {
+        width: 100%;
+        height: 80%;
+    }
+    
+    #lightbox img {
+	   max-width: 95%;
+/*	   margin: 100px 0;*/
+    }
+    
+    
+    
+    #iOSFix {
+    visibility: visible;
+    }
+
+    #photoTwo {
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #removeBtn {
+        margin-top: 10px;
+    }
+    
+    #iOSFix {
+    visibility: visible;
+}
+    
+    #adverts {
+/*        display: none;*/
+    }
+    
+}
+
+@media screen and (max-width: 1025px) {
+    #iOSFix {
+        visibility: visible;
+    }
+}
+
+
+
